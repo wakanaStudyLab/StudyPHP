@@ -1,0 +1,8 @@
+{
+    "php.validate.executablePath": "C:/PHP/php.exe",
+    "php.executablePath": "C:/PHP/php.exe",
+    "files.encoding": "utf8",
+    "php.validate.enable": true,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true
+}

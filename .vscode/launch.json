@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            // ① 【デフォルト】現在アクティブに開いているタブの PHP ファイルを単体実行
+            "name": "▶ PHP: Current File",
+            "type": "php",
+            "request": "launch",
+            "program": "${file}",
+            "cwd": "${fileDirname}",
+            "runtimeExecutable": "C:/PHP/php.exe"
+        },
+        {
+            // ② 統合ランナー (main.php) を実行して全モジュールを一括検証
+            "name": "▶ PHP: Run main.php (All Modules)",
+            "type": "php",
+            "request": "launch",
+            "program": "${workspaceFolder}/main.php",
+            "cwd": "${workspaceFolder}",
+            "runtimeExecutable": "C:/PHP/php.exe"
+        }
+    ]
+}
