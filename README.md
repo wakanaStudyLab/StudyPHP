@@ -15,8 +15,6 @@ winget install PHP.PHP
 
 ### 2. サンプルコードの実行
 ```powershell
-cd C:\Users\harun\programming\PHP\sample
-
 # 全モジュールを一括実行
 php main.php
 
