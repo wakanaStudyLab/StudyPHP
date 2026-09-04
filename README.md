@@ -75,7 +75,14 @@ php src/04_generators_and_fibers.php
 | [`02_pattern_matching_and_arrays.php`](file:///C:/Users/harun/programming/PHP/sample/src/02_pattern_matching_and_arrays.php) | **match式 & 配列パイプライン** | `match` 式, 名前付き引数 (`name: "Alice"`), `?->` (Nullsafe), `array_map/filter/reduce`, アロー関数 (`fn() =>`) |
 | [`03_exceptions_and_traits.php`](file:///C:/Users/harun/programming/PHP/sample/src/03_exceptions_and_traits.php) | **例外 & Trait (Mix-in)** | 独自ドメイン例外, Multi-catch (`catch (A \| B $e)`), `trait` による水平コード合成, 匿名クラス |
 | [`04_generators_and_fibers.php`](file:///C:/Users/harun/programming/PHP/sample/src/04_generators_and_fibers.php) | **遅延ストリーム & Fiber** | `yield` によるメモリ効率の高い Generator, PHP 8.1+ `Fiber` によるコルーチン（一時停止・再開） |
+| [`05_closures_and_callables.php`](file:///C:/Users/harun/programming/PHP/sample/src/05_closures_and_callables.php) | **クロージャ & Callable** | 無名関数 (`use ($var)` vs `use (&$var)`), アロー関数 (`fn() =>`), PHP 8.1+ First-Class Callable (`strlen(...)`), `Closure::call` |
 | [`main.php`](file:///C:/Users/harun/programming/PHP/sample/main.php) | **統合エントリーポイント** | 全モジュールを一括実行するランナー |
+
+> 📖 **PHP クロージャ・アロー関数・First-Class Callable 完全理解ガイド**:  
+> 無名関数とアロー関数の違い、`use` による値キャプチャと参照キャプチャのメモリモデル、`strlen(...)` 構文の裏側、スコープ動的束縛（`Closure::bind` / `call`）まで完全網羅した解説は [**`LAMBDA.md`**](file:///C:/Users/harun/programming/PHP/sample/LAMBDA.md) を参照してください。
+
+> 🛠️ **Modern Composer & composer.json 完全理解ガイド**:  
+> PSR-4 オートロードの仕組み、`require` vs `require-dev`、本番最適化（`dump-autoload -o`）まで完全網羅した解説は [**`COMPOSER_GUIDE.md`**](file:///C:/Users/harun/programming/PHP/sample/COMPOSER_GUIDE.md) を参照してください。
 
 ---
 

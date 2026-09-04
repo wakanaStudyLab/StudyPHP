@@ -12,6 +12,7 @@ require_once __DIR__ . '/src/01_types_and_classes.php';
 require_once __DIR__ . '/src/02_pattern_matching_and_arrays.php';
 require_once __DIR__ . '/src/03_exceptions_and_traits.php';
 require_once __DIR__ . '/src/04_generators_and_fibers.php';
+require_once __DIR__ . '/src/05_closures_and_callables.php';
 
 function printBanner(string $title): void {
     echo "\n" . str_repeat("=", 64) . "\n";
@@ -39,6 +40,9 @@ function main(): void {
 
     printSection("04: Memory Optimization (yield) and Coroutines (Fiber)");
     \Sample\Async\run();
+
+    printSection("05: Anonymous Functions, Arrow Functions, and First-Class Callables");
+    \Sample\Closures\run();
 
     printBanner("ALL PHP TUTORIAL MODULES COMPLETED SUCCESSFULLY!");
 }
